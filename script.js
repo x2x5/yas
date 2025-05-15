@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // 初始禁用随机按钮，直到数据处理完成
     randomButton.disabled = true;
-    randomButton.textContent = '正在加载数据...';
+    randomButton.textContent = '抽题';
     
     // 记录当前显示的题目，避免重复选择
     let currentAgreementTopic = null;
