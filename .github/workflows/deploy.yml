@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main  # 设置为您的默认分支名
+  # 添加手动触发选项
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -11,20 +13,35 @@ permissions:
   id-token: write
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      
       - name: Setup Pages
         uses: actions/configure-pages@v4
+      
+      - name: Build with static files
+        run: |
+          # 不需要构建过程，所有文件都是静态的
+          echo "Preparing files for deployment..."
+          echo "Files in repository:"
+          ls -la
+      
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: '.'
+          path: "yas"  # 指定要部署的目录
+
+  # 部署工作
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v3 
