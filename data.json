@@ -1,0 +1,960 @@
+[
+    {
+        "chinese": "有些人认为大学教育的主要目的是帮助毕业生找到更好的工作，而另一些人则认为大学教育对个人和社会有更广泛的好处。你在多大程度上同意或不同意前一种观点？",
+        "english": "Some people believe that the main purpose of university education is to help graduates find better jobs, while others believe it has wider benefits for individuals and society. To what extent do you agree or disagree with the former view?",
+        "type": "agreement",
+        "topic": "education"
+    },
+    {
+        "chinese": "正式考试是评估学生表现的唯一有效方式。你在多大程度上同意或不同意？",
+        "english": "Formal examinations are the only effective way to assess a student's performance. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "education"
+    },
+    {
+        "chinese": "有些人认为学校应该根据学生的学术能力来挑选学生，而另一些人则认为不同学术能力的学生应该一起接受教育。你在多大程度上同意或不同意后一种观点？",
+        "english": "Some people think that schools should select students according to their academic abilities, while others believe that students with different academic abilities should be educated together. To what extent do you agree or disagree with the latter view?",
+        "type": "agreement",
+        "topic": "education"
+    },
+    {
+        "chinese": "在教育中越来越多地使用技术，其弊大于利。你在多大程度上同意或不同意？",
+        "english": "The increasing use of technology in education has more disadvantages than advantages. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "education"
+    },
+    {
+        "chinese": "教导孩子道德价值观是父母的责任，而不是学校的责任。你在多大程度上同意或不同意？",
+        "english": "It is the responsibility of parents to teach children moral values, not schools. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "education"
+    },
+    {
+        "chinese": "学校应将如何管理财务作为一门必修课教给学生。你在多大程度上同意或不同意？",
+        "english": "Students should be taught how to manage their finances as a compulsory subject in school. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "education"
+    },
+    {
+        "chinese": "政府应该更多地投资于年轻人的职业培训，而不是大学教育。你在多大程度上同意或不同意？",
+        "english": "The government should invest more in vocational training for young people rather than in university education. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "education"
+    },
+    {
+        "chinese": "家庭作业对孩子来说是不必要的负担，应该废除。你在多大程度上同意或不同意？",
+        "english": "Homework is an unnecessary burden on children and should be abolished. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "education"
+    },
+    {
+        "chinese": "学习外语应该成为所有小学生的必修课。你在多大程度上同意或不同意？",
+        "english": "Learning a foreign language should be compulsory for all primary school students. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "education"
+    },
+    {
+        "chinese": "像绘画和音乐这样的艺术科目与数学和科学这样的学术科目同等重要。你在多大程度上同意或不同意？",
+        "english": "Arts subjects like painting and music are as important as academic subjects like mathematics and science. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "education"
+    },
+    {
+        "chinese": "教师应对学校纪律负主要责任；不应期望家长发挥重要作用。你在多大程度上同意或不同意？",
+        "english": "Teachers should have the primary responsibility for discipline in schools; parents should not be expected to play a significant role. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "education"
+    },
+    {
+        "chinese": "有些人认为应该允许学生选择所有科目，而另一些人则认为某些科目应该是必修的。你在多大程度上同意或不同意必修科目的观点？",
+        "english": "Some people believe that students should be allowed to choose all their subjects, while others believe that some subjects should be compulsory. To what extent do you agree or disagree with the idea of compulsory subjects?",
+        "type": "agreement",
+        "topic": "education"
+    },
+    {
+        "chinese": "学生在学业上追求成功的压力对他们的心理健康产生了负面影响。你在多大程度上同意或不同意？",
+        "english": "The pressure on students to succeed academically is having a negative impact on their mental health. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "education"
+    },
+    {
+        "chinese": "远程学习永远不可能像在传统课堂环境中学习那样有效。你在多大程度上同意或不同意？",
+        "english": "Distance learning can never be as effective as learning in a traditional classroom setting. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "education"
+    },
+    {
+        "chinese": "学校应该更多地关注培养学生的实践技能，而不仅仅是学术知识。你在多大程度上同意或不同意？",
+        "english": "Schools should focus more on developing students' practical skills rather than solely on academic knowledge. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "education"
+    },
+    {
+        "chinese": "私立学校提供的教育质量优于公立学校。你在多大程度上同意或不同意？",
+        "english": "Private schools offer a better quality of education than state-funded schools. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "education"
+    },
+    {
+        "chinese": "历史学习与现代生活无关，不应成为课程的必修部分。你在多大程度上同意或不同意？",
+        "english": "The study of history is irrelevant to modern life and should not be a compulsory part of the curriculum. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "education"
+    },
+    {
+        "chinese": "大学在每个学科都应该招收相同数量的男女学生。你在多大程度上同意或不同意？",
+        "english": "Universities should accept equal numbers of male and female students in every subject. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "education"
+    },
+    {
+        "chinese": "幼儿教育（五岁前）对儿童的发展至关重要，应该为所有人提供公共资助。你在多大程度上同意或不同意？",
+        "english": "Early childhood education (before the age of 5) is crucial for a child's development and should be publicly funded for all. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "education"
+    },
+    {
+        "chinese": "考试能激励学生更努力地学习和学到更多东西。你在多大程度上同意或不同意？",
+        "english": "Exams motivate students to work harder and learn more. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "education"
+    },
+    {
+        "chinese": "人工智能将创造比其消除的更多的工作岗位。你在多大程度上同意或不同意？",
+        "english": "Artificial intelligence will create more jobs than it eliminates. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "technology"
+    },
+    {
+        "chinese": "社交媒体平台对用户的心理健康主要产生负面影响。你在多大程度上同意或不同意？",
+        "english": "Social media platforms have a predominantly negative impact on users' mental well-being. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "technology"
+    },
+    {
+        "chinese": "政府应就数据隐私问题对科技公司实施更严格的监管。你在多大程度上同意或不同意？",
+        "english": "Governments should implement stricter regulations on tech companies regarding data privacy. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "technology"
+    },
+    {
+        "chinese": "数字素养现在与读写能力一样是一项基本技能。你在多大程度上同意或不同意？",
+        "english": "Digital literacy is now as fundamental a skill as reading and writing. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "technology"
+    },
+    {
+        "chinese": "自动驾驶汽车在不久的将来会比人类驾驶的汽车更安全。你在多大程度上同意或不同意？",
+        "english": "Autonomous vehicles will be safer than human-driven cars in the near future. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "technology"
+    },
+    {
+        "chinese": "围绕基因编辑技术的伦理担忧超过了其潜在益处。你在多大程度上同意或不同意？",
+        "english": "The ethical concerns surrounding gene editing technology outweigh its potential benefits. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "technology"
+    },
+    {
+        "chinese": "技术创新是应对气候变化最关键的因素。你在多大程度上同意或不同意？",
+        "english": "Technological innovation is the most crucial factor in addressing climate change. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "technology"
+    },
+    {
+        "chinese": "数字鸿沟正在加剧全球不平等。你在多大程度上同意或不同意？",
+        "english": "The digital divide is widening global inequalities. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "technology"
+    },
+    {
+        "chinese": "玩视频游戏对年轻人来说弊大于利。你在多大程度上同意或不同意？",
+        "english": "Playing video games has more harmful effects than benefits for young people. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "technology"
+    },
+    {
+        "chinese": "由技术推动的远程工作是大多数行业的未来就业方式。你在多大程度上同意或不同意？",
+        "english": "Remote work, facilitated by technology, is the future of employment for most industries. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "technology"
+    },
+    {
+        "chinese": "超级智能人工智能的发展对人类构成了重大的生存风险，应予以严格控制。你在多大程度上同意或不同意？",
+        "english": "The development of superintelligent AI poses a significant existential risk to humanity and should be strictly controlled. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "technology"
+    },
+    {
+        "chinese": "个人主要对自身的网络安全负责，而不是政府或公司。你在多大程度上同意或不同意？",
+        "english": "Individuals are primarily responsible for their own cybersecurity, rather than governments or corporations. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "technology"
+    },
+    {
+        "chinese": "智能家居设备的便利性超过了与之相关的隐私风险。你在多大程度上同意或不同意？",
+        "english": "The convenience of smart home devices outweighs the privacy risks associated with them. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "technology"
+    },
+    {
+        "chinese": "在线平台使用的算法过度限制了个人选择并制造了过滤气泡。你在多大程度上同意或不同意？",
+        "english": "Algorithms used by online platforms excessively limit personal choice and create filter bubbles. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "technology"
+    },
+    {
+        "chinese": "政府应大幅增加对太空探索技术的资助。你在多大程度上同意或不同意？",
+        "english": "Governments should significantly increase funding for space exploration technology. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "technology"
+    },
+    {
+        "chinese": "电子商务的兴起最终将导致传统零售店的终结。你在多大程度上同意或不同意？",
+        "english": "The rise of e-commerce will eventually lead to the end of traditional retail stores. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "technology"
+    },
+    {
+        "chinese": "医疗保健技术，如人工智能诊断和远程医疗，将显著改善所有人获得医疗服务的机会和质量。你在多大程度上同意或不同意？",
+        "english": "Technology in healthcare, such as AI diagnostics and telemedicine, will significantly improve access to and quality of medical services for everyone. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "technology"
+    },
+    {
+        "chinese": "尽管存在隐私担忧，执法机构使用面部识别技术是维护公共安全的必要工具。你在多大程度上同意或不同意？",
+        "english": "The use of facial recognition technology by law enforcement agencies is a necessary tool for public safety, despite privacy concerns. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "technology"
+    },
+    {
+        "chinese": "向可再生能源技术的过渡速度过慢，无法有效应对气候变化。你在多大程度上同意或不同意？",
+        "english": "The transition to renewable energy technologies is happening too slowly to effectively combat climate change. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "technology"
+    },
+    {
+        "chinese": "虚拟现实（VR）和增强现实（AR）等沉浸式技术将从根本上改变我们与数字世界以及彼此互动的方式。你在多大程度上同意或不同意？",
+        "english": "Immersive technologies like virtual reality (VR) and augmented reality (AR) will fundamentally change how we interact with the digital world and each other. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "technology"
+    },
+    {
+        "chinese": "传统家庭结构在现代社会中变得无关紧要。你在多大程度上同意或不同意？",
+        "english": "Traditional family structures are becoming irrelevant in modern society. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "society"
+    },
+    {
+        "chinese": "与过去相比，今天的人们与当地社区的联系更少。你在多大程度上同意或不同意？",
+        "english": "People today are less connected to their local communities than in the past. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "society"
+    },
+    {
+        "chinese": "全球化不可避免地导致地方文化的丧失。你在多大程度上同意或不同意？",
+        "english": "Globalisation inevitably leads to the loss of local cultures. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "society"
+    },
+    {
+        "chinese": "更严厉的惩罚是减少犯罪的最有效方法。你在多大程度上同意或不同意？",
+        "english": "Stricter punishments are the most effective way to reduce crime. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "society"
+    },
+    {
+        "chinese": "政府在减少收入不平等方面负有主要责任。你在多大程度上同意或不同意？",
+        "english": "Governments have the primary responsibility for reducing income inequality. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "society"
+    },
+    {
+        "chinese": "生活在大城市的优势大于劣势。你在多大程度上同意或不同意？",
+        "english": "The advantages of living in large cities outweigh the disadvantages. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "society"
+    },
+    {
+        "chinese": "媒体对公众舆论和塑造社会价值观有过度影响。你在多大程度上同意或不同意？",
+        "english": "The media has an excessive influence on public opinion and shaping societal values. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "society"
+    },
+    {
+        "chinese": "人口老龄化给一个国家带来的挑战多于机遇。你在多大程度上同意或不同意？",
+        "english": "An aging population presents more challenges than opportunities for a country. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "society"
+    },
+    {
+        "chinese": "消费主义对社会主要产生负面影响。你在多大程度上同意或不同意？",
+        "english": "Consumerism has a predominantly negative impact on society. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "society"
+    },
+    {
+        "chinese": "在现代社会，实现健康的工作与生活平衡变得越来越困难。你在多大程度上同意或不同意？",
+        "english": "Achieving a healthy work-life balance is becoming increasingly difficult in modern society. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "society"
+    },
+    {
+        "chinese": "现代社会正变得过度个人主义，从而牺牲了社区精神。你在多大程度上同意或不同意？",
+        "english": "Modern societies are becoming overly individualistic at the expense of community spirit. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "society"
+    },
+    {
+        "chinese": "企业除了盈利之外，还负有社会责任。你在多大程度上同意或不同意？",
+        "english": "Businesses have a social responsibility beyond simply making a profit. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "society"
+    },
+    {
+        "chinese": "移民给东道国带来的好处多于坏处。你在多大程度上同意或不同意？",
+        "english": "Immigration brings more benefits than drawbacks to the host country. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "society"
+    },
+    {
+        "chinese": "由于技术的发展，像公园和图书馆这样的公共空间在数字时代变得不那么重要了。你在多大程度上同意或不同意？",
+        "english": "Public spaces like parks and libraries are becoming less important in the digital age due to technology. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "society"
+    },
+    {
+        "chinese": "年轻人应该被强制要求在一段时间内参与无偿社区服务。你在多大程度上同意或不同意？",
+        "english": "It should be compulsory for young people to participate in unpaid community service for a period of time. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "society"
+    },
+    {
+        "chinese": "对于社会而言，保护其传统生活方式比拥抱现代化更重要。你在多大程度上同意或不同意？",
+        "english": "It is more important for societies to preserve their traditional ways of life than to embrace modernization. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "society"
+    },
+    {
+        "chinese": "个人在解决重大全球问题方面能做的很少；这主要是政府和大型国际组织的责任。你在多大程度上同意或不同意？",
+        "english": "Individuals can do little to solve major global problems; the responsibility lies primarily with governments and large international organizations. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "society"
+    },
+    {
+        "chinese": "经济繁荣是实现幸福社会的首要因素。你在多大程度上同意或不同意？",
+        "english": "Economic prosperity is the primary factor for achieving a happy society. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "society"
+    },
+    {
+        "chinese": "传统的性别角色在现代社会中已不再相关或有益。你在多大程度上同意或不同意？",
+        "english": "Traditional gender roles are no longer relevant or beneficial in modern society. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "society"
+    },
+    {
+        "chinese": "与前几代人相比，今天的年轻人面临着更大的社会压力。你在多大程度上同意或不同意？",
+        "english": "Young people today are under more social pressure than previous generations. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "society"
+    },
+    {
+        "chinese": "政府应该优先考虑经济增长而不是环境保护。你在多大程度上同意或不同意？",
+        "english": "Governments should prioritize economic growth over environmental protection. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "government"
+    },
+    {
+        "chinese": "政府对公民进行监控在任何情况下都是不合理的，即使是为了国家安全。你在多大程度上同意或不同意？",
+        "english": "Government surveillance of citizens is unjustified in any circumstance, even for national security. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "government"
+    },
+    {
+        "chinese": "所有公民都应该强制投票。你在多大程度上同意或不同意？",
+        "english": "Voting should be made compulsory for all citizens. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "government"
+    },
+    {
+        "chinese": "政府在提供免费医疗保健方面负有主要责任。你在多大程度上同意或不同意？",
+        "english": "The government has the primary responsibility for providing free healthcare. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "government"
+    },
+    {
+        "chinese": "审查制度是政府维护社会秩序的必要工具。你在多大程度上同意或不同意？",
+        "english": "Censorship is a necessary tool for governments to maintain social order. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "government"
+    },
+    {
+        "chinese": "与国内问题相比，政府应该在国际援助上花费更多。你在多大程度上同意或不同意？",
+        "english": "Governments should spend more on international aid compared to domestic issues. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "government"
+    },
+    {
+        "chinese": "为了公共利益，个人自由有时必须受到限制。你在多大程度上同意或不同意？",
+        "english": "Individual freedoms must sometimes be restricted for the greater public good. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "government"
+    },
+    {
+        "chinese": "政治领导人应该更关注公众舆论而不是他们自己的判断。你在多大程度上同意或不同意？",
+        "english": "Political leaders should be more concerned with public opinion than their own judgment. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "government"
+    },
+    {
+        "chinese": "政府应该对糖、烟草等不健康产品征收重税。你在多大程度上同意或不同意？",
+        "english": "Governments should impose heavy taxes on unhealthy products like sugar and tobacco. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "government"
+    },
+    {
+        "chinese": "一个国家拥有强大的军事力量对于维护和平至关重要。你在多大程度上同意或不同意？",
+        "english": "It is essential for a country to have a strong military to maintain peace. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "government"
+    },
+    {
+        "chinese": "政府不应干预艺术和文化，它们应该完全由市场力量决定。你在多大程度上同意或不同意？",
+        "english": "Governments should not interfere in arts and culture; they should be entirely determined by market forces. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "government"
+    },
+    {
+        "chinese": "为了促进平等，政府应该为所有公民提供基本收入。你在多大程度上同意或不同意？",
+        "english": "Governments should provide a universal basic income to all citizens to promote equality. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "government"
+    },
+    {
+        "chinese": "死刑是针对严重罪行的公正惩罚。你在多大程度上同意或不同意？",
+        "english": "The death penalty is a just punishment for heinous crimes. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "government"
+    },
+    {
+        "chinese": "公共服务私有化通常会导致效率提高和成本降低。你在多大程度上同意或不同意？",
+        "english": "Privatization of public services generally leads to greater efficiency and lower costs. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "government"
+    },
+    {
+        "chinese": "政府应该有权监管社交媒体平台上传播的内容。你在多大程度上同意或不同意？",
+        "english": "Governments should have the power to regulate content on social media platforms. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "government"
+    },
+    {
+        "chinese": "核能是解决未来能源需求的必要方案，尽管存在风险。你在多大程度上同意或不同意？",
+        "english": "Nuclear energy is a necessary solution for future energy needs, despite the risks. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "government"
+    },
+    {
+        "chinese": "在制定政策时，政府应该更多地依赖专家意见而不是民意调查。你在多大程度上同意或不同意？",
+        "english": "Governments should rely more on expert advice than on public opinion polls when making policy. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "government"
+    },
+    {
+        "chinese": "政治运动中的企业捐款应该受到严格限制或禁止。你在多大程度上同意或不同意？",
+        "english": "Corporate donations to political campaigns should be strictly limited or banned. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "government"
+    },
+    {
+        "chinese": "政府应该负责确保其公民获得负担得起的住房。你在多大程度上同意或不同意？",
+        "english": "The government is responsible for ensuring its citizens have access to affordable housing. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "government"
+    },
+    {
+        "chinese": "地方政府应该被赋予比中央政府更大的权力和自主权。你在多大程度上同意或不同意？",
+        "english": "Local governments should be given more power and autonomy from central government. To what extent do you agree or disagree?",
+        "type": "agreement",
+        "topic": "government"
+    },
+    {
+        "chinese": "有些人认为在线学习最终可以完全取代传统的课堂教学，而另一些人则认为实体课堂互动对于有效学习至关重要。讨论这两种观点并给出你自己的看法。",
+        "english": "Some people believe that online learning can eventually replace traditional classroom teaching entirely, while others argue that physical classroom interaction is essential for effective learning. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "education"
+    },
+    {
+        "chinese": "一些人主张标准化考试是衡量学生能力和学校表现的公平方式，而另一些人则认为它们扼杀创造力并导致教学应试化。讨论这两种观点并给出你自己的看法。",
+        "english": "Some people advocate for standardized testing as a fair way to measure student ability and school performance, while others contend they stifle creativity and lead to teaching to the test. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "education"
+    },
+    {
+        "chinese": "有人认为，高等教育的主要目标应该是为学生提供就业所需的特定技能，而另一些人则认为它应该侧重于培养批判性思维和通识知识。讨论这两种观点并给出你自己的看法。",
+        "english": "Some argue that the primary goal of higher education should be to equip students with specific skills for employment, while others believe it should focus on developing critical thinking and broad intellectual knowledge. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "education"
+    },
+    {
+        "chinese": "有些人认为，所有学生都应该学习一套核心的必修科目，以确保全面的教育，而另一些人则主张学生应该有完全的自由来选择他们想学习的所有科目。讨论这两种观点并给出你自己的看法。",
+        "english": "Some people believe that all students should study a core set of compulsory subjects to ensure a well-rounded education, while others argue that students should have complete freedom to choose all subjects they wish to study. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "education"
+    },
+    {
+        "chinese": "一些教育家认为，将不同能力水平的学生混合在同一个班级中对所有学生都有益，而另一些人则认为按能力分班能更好地满足每个学生的需求。讨论这两种观点并给出你自己的看法。",
+        "english": "Some educators believe that mixing students of different ability levels in the same classroom benefits all students, while others argue that streaming or tracking by ability better caters to individual student needs. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "education"
+    },
+    {
+        "chinese": "有人认为，学校应该主要关注学术成就，而另一些人则认为，培养学生的社交和情感技能同等重要。讨论这两种观点并给出你自己的看法。",
+        "english": "Some argue that schools should primarily focus on academic achievement, while others believe that developing students' social and emotional skills is equally important. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "education"
+    },
+    {
+        "chinese": "有些人认为，增加教育技术的使用增强了学习体验，而另一些人则担心它会导致学生注意力下降和人际交往能力减弱。讨论这两种观点并给出你自己的看法。",
+        "english": "Some people believe that increasing use of technology in education enhances the learning experience, while others worry it can lead to decreased attention spans and weaker interpersonal skills. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "education"
+    },
+    {
+        "chinese": "一些人主张，艺术（如音乐、戏剧、美术）在学校课程中应与科学和数学等科目享有同等地位，而另一些人则认为学术科目应优先考虑。讨论这两种观点并给出你自己的看法。",
+        "english": "Some argue that arts subjects (e.g., music, drama, fine arts) should have equal status in the school curriculum as subjects like science and mathematics, while others believe academic subjects should be prioritized. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "education"
+    },
+    {
+        "chinese": "有人认为，教师应该对课堂纪律负全部责任，而另一些人则认为家长在与学校合作维持纪律方面扮演着至关重要的角色。讨论这两种观点并给出你自己的看法。",
+        "english": "Some believe that teachers should hold sole responsibility for classroom discipline, while others argue that parents play a crucial role in partnering with schools to maintain discipline. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "education"
+    },
+    {
+        "chinese": "有些人认为，政府应该更多地投资于职业培训项目，以满足劳动力市场的需求，而另一些人则认为，大学教育对于个人发展和国家进步更为重要。讨论这两种观点并给出你自己的看法。",
+        "english": "Some argue that governments should invest more in vocational training programs to meet the demands of the labor market, while others believe university education is more critical for individual development and national progress. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "education"
+    },
+    {
+        "chinese": "有些人认为，为了激励学生并为现实世界做好准备，竞争在教育中是健康的，而另一些人则认为它会造成不必要的压力并阻碍合作。讨论这两种观点并给出你自己的看法。",
+        "english": "Some people believe that competition in education is healthy for motivating students and preparing them for the real world, while others argue it creates undue stress and discourages collaboration. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "education"
+    },
+    {
+        "chinese": "一些人主张，教师的薪酬应该与学生的表现挂钩，以提高教育质量，而另一些人则认为这种做法不公平且可能适得其反。讨论这两种观点并给出你自己的看法。",
+        "english": "Some argue that teachers' salaries should be linked to their students' performance to improve educational quality, while others believe this practice is unfair and potentially counterproductive. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "education"
+    },
+    {
+        "chinese": "有些人认为，学习外语应该从小学开始就成为必修课，以培养全球公民意识，而另一些人则认为这会给年幼的孩子带来不必要的负担。讨论这两种观点并给出你自己的看法。",
+        "english": "Some believe that learning a foreign language should be compulsory from primary school to foster global citizenship, while others argue it places an unnecessary burden on young children. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "education"
+    },
+    {
+        "chinese": "一些人认为，私立学校提供了更高质量的教育，因此值得存在，而另一些人则认为它们加剧了教育不平等，应该受到限制或废除。讨论这两种观点并给出你自己的看法。",
+        "english": "Some argue that private schools offer a superior quality of education and are therefore justified, while others believe they exacerbate educational inequality and should be limited or abolished. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "education"
+    },
+    {
+        "chinese": "有些人认为，历史学习对于理解现在和未来至关重要，而另一些人则认为它与现代生活关系不大，不应成为必修课。讨论这两种观点并给出你自己的看法。",
+        "english": "Some people believe that the study of history is crucial for understanding the present and future, while others argue it has little relevance to modern life and should not be a compulsory subject. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "education"
+    },
+    {
+        "chinese": "一些人主张，大学应该在所有学科中努力实现男女学生人数均等，以促进性别平等，而另一些人则认为录取应纯粹基于成绩和个人选择。讨论这两种观点并给出你自己的看法。",
+        "english": "Some argue that universities should strive for equal numbers of male and female students in all subjects to promote gender equality, while others believe admission should be based purely on merit and individual choice. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "education"
+    },
+    {
+        "chinese": "有些人认为，家庭作业是巩固学习和培养责任感的必要工具，而另一些人则认为它剥夺了孩子的休闲时间，并可能导致倦怠。讨论这两种观点并给出你自己的看法。",
+        "english": "Some believe homework is a necessary tool for reinforcing learning and developing responsibility, while others argue it deprives children of leisure time and can contribute to burnout. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "education"
+    },
+    {
+        "chinese": "一些人认为，学校应该教授有争议的社会和政治问题，以培养批判性思维，而另一些人则认为这些话题最好留给家庭讨论。讨论这两种观点并给出你自己的看法。",
+        "english": "Some argue that schools should teach controversial social and political issues to develop critical thinking, while others believe these topics are best left for families to discuss. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "education"
+    },
+    {
+        "chinese": "有些人认为，终身学习对于在快速变化的世界中保持职业竞争力至关重要，而另一些人则认为持续的再培训压力过大且不切实际。讨论这两种观点并给出你自己的看法。",
+        "english": "Some believe that lifelong learning is essential for career relevance in a rapidly changing world, while others argue that the pressure for constant retraining is overwhelming and impractical. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "education"
+    },
+    {
+        "chinese": "一些人主张，教育体系应更加注重培养创业精神和创新能力，而另一些人则认为应优先确保学生掌握扎实的基础知识。讨论这两种观点并给出你自己的看法。",
+        "english": "Some argue that the education system should focus more on fostering entrepreneurship and innovation, while others believe the priority should be on ensuring students grasp fundamental knowledge. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "education"
+    },
+    {
+        "chinese": "有些人认为人工智能的发展将给社会带来前所未有的进步和效率，而另一些人则担心它会导致大规模失业和潜在的失控风险。讨论这两种观点并给出你自己的看法。",
+        "english": "Some people believe that the development of artificial intelligence will bring unprecedented progress and efficiency to society, while others fear it will lead to mass unemployment and potential existential risks. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "technology"
+    },
+    {
+        "chinese": "一些人主张社交媒体增强了人际联系和信息传播，而另一些人则认为它加剧了社会孤立、虚假信息和心理健康问题。讨论这两种观点并给出你自己的看法。",
+        "english": "Some argue that social media enhances human connection and information dissemination, while others contend it exacerbates social isolation, misinformation, and mental health issues. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "technology"
+    },
+    {
+        "chinese": "有些人认为政府应该对科技公司实施更严格的监管以保护消费者和确保公平竞争，而另一些人则认为过度监管会扼杀创新。讨论这两种观点并给出你自己的看法。",
+        "english": "Some people believe governments should impose stricter regulations on tech companies to protect consumers and ensure fair competition, while others argue that excessive regulation stifles innovation. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "technology"
+    },
+    {
+        "chinese": "有些人认为自动驾驶汽车将彻底改变交通运输，使其更安全、更高效，而另一些人则对其可靠性、安全漏洞和伦理困境表示担忧。讨论这两种观点并给出你自己的看法。",
+        "english": "Some believe autonomous vehicles will revolutionize transportation, making it safer and more efficient, while others express concerns about their reliability, security vulnerabilities, and ethical dilemmas. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "technology"
+    },
+    {
+        "chinese": "有人认为基因编辑技术在治疗疾病方面具有巨大潜力，而另一些人则对其伦理影响以及可能被滥用于“设计婴儿”表示深切关注。讨论这两种观点并给出你自己的看法。",
+        "english": "Some argue that gene editing technology holds immense potential for curing diseases, while others raise deep ethical concerns about its implications and potential misuse for \"designer babies.\" Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "technology"
+    },
+    {
+        "chinese": "有些人认为，为了国家安全和预防犯罪，政府使用面部识别等监控技术是合理的，而另一些人则认为这严重侵犯了个人隐私。讨论这两种观点并给出你自己的看法。",
+        "english": "Some believe that government use of surveillance technologies like facial recognition is justified for national security and crime prevention, while others argue it is a serious infringement on personal privacy. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "technology"
+    },
+    {
+        "chinese": "一些人主张，解决气候变化的关键在于大力投资和发展绿色技术，而另一些人则认为，技术解决方案本身不足以应对这一挑战，还需要根本性的生活方式改变。讨论这两种观点并给出你自己的看法。",
+        "english": "Some argue that the key to tackling climate change lies in significant investment and development of green technologies, while others believe technological solutions alone are insufficient and fundamental lifestyle changes are also required. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "technology"
+    },
+    {
+        "chinese": "有些人认为数字鸿沟主要是技术普及问题，可以通过提供设备和网络来解决，而另一些人则认为它根植于更深层次的社会经济不平等，需要更全面的方法。讨论这两种观点并给出你自己的看法。",
+        "english": "Some believe the digital divide is primarily an issue of access to technology and can be solved by providing devices and internet, while others argue it is rooted in deeper socio-economic inequalities requiring a more holistic approach. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "technology"
+    },
+    {
+        "chinese": "有人认为，随着远程工作的普及，办公室的传统角色正在减弱，而另一些人则认为，实体办公空间对于协作、公司文化和员工福祉仍然至关重要。讨论这两种观点并给出你自己的看法。",
+        "english": "Some argue that the traditional role of the office is diminishing with the rise of remote work, while others believe physical office spaces remain crucial for collaboration, company culture, and employee well-being. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "technology"
+    },
+    {
+        "chinese": "有些人认为，为了追求科学进步和潜在的未来利益，人类应该积极探索和殖民太空，而另一些人则认为，我们应该优先解决地球上的紧迫问题。讨论这两种观点并给出你自己的看法。",
+        "english": "Some believe humanity should actively pursue space exploration and colonization for scientific advancement and potential future benefits, while others argue that we should prioritize solving urgent problems on Earth. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "technology"
+    },
+    {
+        "chinese": "一些人认为，物联网（IoT）和智能家居设备为生活带来了极大的便利，而另一些人则担心它们会产生大量的个人数据，从而带来隐私和安全风险。讨论这两种观点并给出你自己的看法。",
+        "english": "Some argue that the Internet of Things (IoT) and smart home devices offer significant convenience to daily life, while others worry about the vast amounts of personal data they generate, posing privacy and security risks. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "technology"
+    },
+    {
+        "chinese": "有人认为，加密货币和区块链技术代表了金融的未来，提供了去中心化和透明度，而另一些人则警告其波动性、能源消耗和被用于非法活动的可能性。讨论这两种观点并给出你自己的看法。",
+        "english": "Some believe cryptocurrencies and blockchain technology represent the future of finance, offering decentralization and transparency, while others warn of their volatility, energy consumption, and potential for illicit use. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "technology"
+    },
+    {
+        "chinese": "有些人认为，科技公司应该对其平台上内容的传播承担更多责任，以打击虚假信息，而另一些人则认为这等同于审查制度，并会扼杀言论自由。讨论这两种观点并给出你自己的看法。",
+        "english": "Some argue that tech companies should take more responsibility for the content spread on their platforms to combat misinformation, while others believe this amounts to censorship and stifles free speech. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "technology"
+    },
+    {
+        "chinese": "一些人主张，自动化和机器人技术将提高生产力并创造新的、更高技能的工作岗位，而另一些人则担心这将导致许多传统行业的大规模失业。讨论这两种观点并给出你自己的看法。",
+        "english": "Some argue that automation and robotics will enhance productivity and create new, higher-skilled jobs, while others fear it will lead to widespread job displacement in many traditional sectors. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "technology"
+    },
+    {
+        "chinese": "有些人认为，虚拟现实（VR）和增强现实（AR）将彻底改变娱乐、教育和工作方式，而另一些人则认为它们目前更多是噱头，实际应用有限。讨论这两种观点并给出你自己的看法。",
+        "english": "Some believe that virtual reality (VR) and augmented reality (AR) will revolutionize entertainment, education, and work, while others see them as currently more gimmicky with limited practical application. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "technology"
+    },
+    {
+        "chinese": "有些人认为，开源软件和协作开发模式是技术创新的最佳途径，而另一些人则认为，强大的知识产权保护对于激励研发投入至关重要。讨论这两种观点并给出你自己的看法。",
+        "english": "Some argue that open-source software and collaborative development models are the best path for technological innovation, while others believe strong intellectual property protection is crucial to incentivize R&D investment. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "technology"
+    },
+    {
+        "chinese": "一些人认为，大数据分析为企业和社会决策提供了宝贵的洞察力，而另一些人则担心其可能导致歧视、侵犯隐私和强化现有偏见。讨论这两种观点并给出你自己的看法。",
+        "english": "Some believe that big data analytics provides invaluable insights for business and societal decision-making, while others worry about its potential for discrimination, privacy violations, and reinforcing existing biases. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "technology"
+    },
+    {
+        "chinese": "有人认为，为了促进创新和经济增长，政府应该对新兴技术采取“放任”的态度，而另一些人则认为，主动的监管对于防范潜在风险至关重要。讨论这两种观点并给出你自己的看法。",
+        "english": "Some argue that governments should adopt a 'laissez-faire' approach to emerging technologies to foster innovation and economic growth, while others believe proactive regulation is essential to safeguard against potential risks. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "technology"
+    },
+    {
+        "chinese": "有些人认为，个人有责任保护自己的数字隐私和网络安全，而另一些人则认为，公司和政府在确保安全的数字环境方面应承担更大的责任。讨论这两种观点并给出你自己的看法。",
+        "english": "Some believe individuals are primarily responsible for protecting their own digital privacy and cybersecurity, while others argue that corporations and governments should bear greater responsibility for ensuring a secure digital environment. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "technology"
+    },
+    {
+        "chinese": "一些人认为，对核聚变等未来能源技术的追求是解决能源危机的长远之计，而另一些人则认为应将资源集中在现有可再生能源技术的推广和改进上。讨论这两种观点并给出你自己的看法。",
+        "english": "Some argue that pursuing future energy technologies like nuclear fusion is a vital long-term solution to the energy crisis, while others believe resources should be focused on scaling and improving existing renewable energy technologies. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "technology"
+    },
+    {
+        "chinese": "有些人认为，全球化促进了文化交流和经济繁荣，而另一些人则认为它加剧了不平等，并侵蚀了地方认同感。讨论这两种观点并给出你自己的看法。",
+        "english": "Some people believe that globalization fosters cultural exchange and economic prosperity, while others argue it exacerbates inequality and erodes local identities. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "society"
+    },
+    {
+        "chinese": "一些人主张，维护社会秩序和安全应优先于个人自由，而另一些人则认为，个人自由是民主社会的基石，不应轻易牺牲。讨论这两种观点并给出你自己的看法。",
+        "english": "Some argue that maintaining social order and security should take precedence over individual liberties, while others believe personal freedoms are fundamental to a democratic society and should not be easily compromised. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "society"
+    },
+    {
+        "chinese": "有些人认为，现代社会越来越注重个人成就和物质财富，导致社区精神的衰落，而另一些人则认为个人主义推动了创新和个人发展。讨论这两种观点并给出你自己的看法。",
+        "english": "Some believe modern society is increasingly focused on individual achievement and material wealth, leading to a decline in community spirit, while others argue that individualism drives innovation and personal growth. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "society"
+    },
+    {
+        "chinese": "一些人认为，解决犯罪问题的最佳途径是实施更严厉的惩罚，而另一些人则主张应更注重通过教育和解决社会经济根源来预防犯罪。讨论这两种观点并给出你自己的看法。",
+        "english": "Some argue that the best way to tackle crime is through stricter punishments, while others advocate for a greater focus on prevention through education and addressing socio-economic root causes. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "society"
+    },
+    {
+        "chinese": "有人认为，移民对东道国的经济和文化多样性做出了积极贡献，而另一些人则担心移民可能对公共服务和国家认同构成压力。讨论这两种观点并给出你自己的看法。",
+        "english": "Some believe that immigration contributes positively to the host country's economy and cultural diversity, while others express concerns about potential strains on public services and national identity. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "society"
+    },
+    {
+        "chinese": "有些人认为，传统家庭价值观对于社会稳定至关重要，而另一些人则认为，社会应该拥抱多样化的家庭结构和生活方式。讨论这两种观点并给出你自己的看法。",
+        "english": "Some argue that traditional family values are essential for social stability, while others believe society should embrace diverse family structures and lifestyles. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "society"
+    },
+    {
+        "chinese": "一些人主张，解决收入不平等问题主要是政府的责任，需要通过税收和福利政策进行干预，而另一些人则认为市场力量和个人努力应起主导作用。讨论这两种观点并给出你自己的看法。",
+        "english": "Some argue that tackling income inequality is primarily the government's responsibility through taxation and welfare policies, while others believe market forces and individual effort should play the dominant role. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "society"
+    },
+    {
+        "chinese": "有些人认为，消费主义推动经济增长并提高生活水平，而另一些人则认为它导致环境恶化、物质主义和社会不满。讨论这两种观点并给出你自己的看法。",
+        "english": "Some believe consumerism drives economic growth and improves living standards, while others argue it leads to environmental degradation, materialism, and social discontent. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "society"
+    },
+    {
+        "chinese": "一些人认为，大众媒体在塑造公众舆论和价值观方面发挥着过于强大的作用，而另一些人则认为它仅仅反映了社会现有的观点和趋势。讨论这两种观点并给出你自己的看法。",
+        "english": "Some argue that mass media plays an overly powerful role in shaping public opinion and values, while others believe it merely reflects existing societal views and trends. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "society"
+    },
+    {
+        "chinese": "有些人认为，城市化带来了经济机遇和文化活力，而另一些人则担心它导致过度拥挤、污染和社会疏离。讨论这两种观点并给出你自己的看法。",
+        "english": "Some believe urbanization offers economic opportunities and cultural vibrancy, while others worry it leads to overcrowding, pollution, and social alienation. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "society"
+    },
+    {
+        "chinese": "一些人主张，社会应该优先保护传统文化和遗产，而另一些人则认为，拥抱变革和现代化对于社会进步更为重要。讨论这两种观点并给出你自己的看法。",
+        "english": "Some argue that society should prioritize the preservation of traditional culture and heritage, while others believe embracing change and modernization is more important for societal progress. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "society"
+    },
+    {
+        "chinese": "有些人认为，名人和公众人物有责任成为年轻人的榜样，而另一些人则认为他们只是普通人，不应承担这种额外的期望。讨论这两种观点并给出你自己的看法。",
+        "english": "Some believe that celebrities and public figures have a responsibility to be role models for young people, while others argue they are simply individuals who should not be burdened with such extra expectations. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "society"
+    },
+    {
+        "chinese": "一些人认为，社会对老年人的照顾应主要由家庭承担，而另一些人则认为政府和社会机构应发挥更大的作用。讨论这两种观点并给出你自己的看法。",
+        "english": "Some argue that the care for elderly people in society should primarily be the responsibility of their families, while others believe the government and social institutions should play a larger role. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "society"
+    },
+    {
+        "chinese": "有些人认为，竞争是社会进步和个人成就的驱动力，而另一些人则认为，合作和集体福祉对于一个健康的社会更为重要。讨论这两种观点并给出你自己的看法。",
+        "english": "Some believe that competition is a driving force for societal progress and individual achievement, while others argue that cooperation and collective well-being are more important for a healthy society. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "society"
+    },
+    {
+        "chinese": "一些人主张，为了促进社会公平，应该对富人征收更高的税，而另一些人则认为这会抑制投资和经济增长。讨论这两种观点并给出你自己的看法。",
+        "english": "Some argue that higher taxes should be imposed on the wealthy to promote social equity, while others believe this discourages investment and economic growth. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "society"
+    },
+    {
+        "chinese": "有些人认为，社会规范和传统对于维持稳定和秩序至关重要，而另一些人则认为它们常常限制个人自由和阻碍社会发展。讨论这两种观点并给出你自己的看法。",
+        "english": "Some believe that social norms and traditions are crucial for maintaining stability and order, while others argue they often restrict individual freedom and hinder societal development. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "society"
+    },
+    {
+        "chinese": "一些人认为，现代社会中工作与生活的平衡越来越难以实现，导致压力增加，而另一些人则认为，灵活的工作安排和技术进步为实现平衡提供了新的可能性。讨论这两种观点并给出你自己的看法。",
+        "english": "Some argue that work-life balance is increasingly difficult to achieve in modern society, leading to greater stress, while others believe flexible work arrangements and technological advancements offer new possibilities for balance. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "society"
+    },
+    {
+        "chinese": "有些人认为，社会的主要目标应该是追求经济增长和物质繁荣，而另一些人则认为，幸福感、环境可持续性和社会公平等因素更为重要。讨论这两种观点并给出你自己的看法。",
+        "english": "Some believe the primary goal of society should be to pursue economic growth and material prosperity, while others argue that factors like well-being, environmental sustainability, and social equity are more important. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "society"
+    },
+    {
+        "chinese": "一些人主张，社会对性别角色的期望正在变得更加灵活和包容，而另一些人则认为传统的性别规范仍然根深蒂固，并继续限制个人选择。讨论这两种观点并给出你自己的看法。",
+        "english": "Some argue that societal expectations regarding gender roles are becoming more flexible and inclusive, while others believe traditional gender norms remain deeply entrenched and continue to limit individual choices. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "society"
+    },
+    {
+        "chinese": "有些人认为，公民不服从是促进社会变革和挑战不公正法律的合法手段，而另一些人则认为它会破坏法治和稳定。讨论这两种观点并给出你自己的看法。",
+        "english": "Some believe that civil disobedience is a legitimate means of promoting social change and challenging unjust laws, while others argue it undermines the rule of law and stability. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "society"
+    },
+    {
+        "chinese": "有些人认为，政府应在经济中扮演积极的干预角色以纠正市场失灵和促进公平，而另一些人则主张政府应限制干预，让市场力量自由运作。讨论这两种观点并给出你自己的看法。",
+        "english": "Some people believe that governments should play an active interventionist role in the economy to correct market failures and promote equity, while others argue they should limit their intervention and allow market forces to operate freely. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "government"
+    },
+    {
+        "chinese": "一些人主张，为了国家安全，政府有权对公民进行监控，而另一些人则认为，这种监控严重侵犯了隐私权，并且容易被滥用。讨论这两种观点并给出你自己的看法。",
+        "english": "Some argue that governments are justified in conducting surveillance on citizens for national security purposes, while others believe such surveillance is a gross violation of privacy rights and open to abuse. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "government"
+    },
+    {
+        "chinese": "有些人认为，政府的首要责任是确保本国公民的福祉，应优先考虑国内需求，而另一些人则认为，富裕国家有道德义务向贫困国家提供大量国际援助。讨论这两种观点并给出你自己的看法。",
+        "english": "Some believe a government's primary responsibility is to its own citizens and should prioritize domestic needs, while others argue that wealthy nations have a moral obligation to provide significant international aid to poorer countries. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "government"
+    },
+    {
+        "chinese": "一些人主张，政府应该对媒体内容进行审查，以保护公民（尤其是儿童）免受有害信息的影响并维护社会稳定，而另一些人则认为任何形式的审查都是对言论自由的侵犯。讨论这两种观点并给出你自己的看法。",
+        "english": "Some argue that governments should censor media content to protect citizens, especially children, from harmful material and maintain social stability, while others believe any form of censorship is an infringement on freedom of speech. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "government"
+    },
+    {
+        "chinese": "有些人认为，政府应该强制公民投票，以提高民主参与度和代表性，而另一些人则认为，投票是个人的权利而非义务，强制投票侵犯了个人自由。讨论这两种观点并给出你自己的看法。",
+        "english": "Some believe that governments should make voting compulsory to increase democratic participation and representation, while others argue that voting is a right, not an obligation, and compulsory voting infringes on personal freedom. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "government"
+    },
+    {
+        "chinese": "一些人主张，政府应该为所有公民提供免费的医疗保健和教育，将其视为基本人权，而另一些人则认为这些服务应主要由市场提供，以提高效率和选择性。讨论这两种观点并给出你自己的看法。",
+        "english": "Some argue that governments should provide free healthcare and education for all citizens as basic human rights, while others believe these services should primarily be market-driven for efficiency and choice. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "government"
+    },
+    {
+        "chinese": "有些人认为，为了应对气候变化等全球性挑战，国际合作和多边协议至关重要，而另一些人则认为国家利益应始终优先，单边行动更为有效。讨论这两种观点并给出你自己的看法。",
+        "english": "Some believe that international cooperation and multilateral agreements are essential for tackling global challenges like climate change, while others argue that national interests should always come first and unilateral action is more effective. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "government"
+    },
+    {
+        "chinese": "一些人主张，政府应该对糖、酒精和烟草等不健康产品征收高额税款，以阻止消费并增加公共收入，而另一些人则认为这是政府过度干预个人选择的“保姆式国家”行为。讨论这两种观点并给出你自己的看法。",
+        "english": "Some argue that governments should impose high taxes on unhealthy products like sugar, alcohol, and tobacco to discourage consumption and raise public revenue, while others see this as \"nanny state\" overreach into personal choice. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "government"
+    },
+    {
+        "chinese": "有些人认为，为了维护和平与国家安全，政府维持强大的军事力量是必要的，而另一些人则认为，巨额军事开支会转移本可用于社会项目的资源，并可能加剧国际紧张局势。讨论这两种观点并给出你自己的看法。",
+        "english": "Some believe it is necessary for governments to maintain a strong military for peace and national security, while others argue that high military spending diverts resources from social programs and can escalate international tensions. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "government"
+    },
+    {
+        "chinese": "有些人认为，政府应该大幅资助艺术和文化事业，因为它们对社会福祉和国家认同至关重要，而另一些人则认为这些领域应该自给自足或依赖私人赞助。讨论这两种观点并给出你自己的看法。",
+        "english": "Some argue that governments should heavily fund arts and culture as they are vital for societal well-being and national identity, while others believe these sectors should be self-sustaining or rely on private patronage. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "government"
+    },
+    {
+        "chinese": "一些人主张，死刑是威慑严重犯罪并为受害者伸张正义的必要手段，而另一些人则认为这是一种残忍和不人道的惩罚，且存在错判的风险。讨论这两种观点并给出你自己的看法。",
+        "english": "Some argue that the death penalty is a necessary deterrent for heinous crimes and provides justice for victims, while others believe it is a cruel and inhumane punishment with a risk of wrongful conviction. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "government"
+    },
+    {
+        "chinese": "有些人认为，政府应该通过立法和配额等积极措施来促进工作场所的性别平等和少数群体代表权，而另一些人则认为，招聘和晋升应完全基于个人能力和优点。讨论这两种观点并给出你自己的看法。",
+        "english": "Some believe governments should actively promote gender equality and minority representation in the workplace through legislation and quotas, while others argue that hiring and promotion should be based solely on individual merit. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "government"
+    },
+    {
+        "chinese": "有些人认为，政治家的主要目标应该是执行其政党的议程和竞选承诺，而另一些人则认为，他们应该更多地代表所有选民的利益，即使这意味着违背党派路线。讨论这两种观点并给出你自己的看法。",
+        "english": "Some argue that politicians' primary goal should be to implement their party's agenda and campaign promises, while others believe they should represent the interests of all their constituents, even if it means going against party lines. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "government"
+    },
+    {
+        "chinese": "一些人主张，政府应该为所有失业者提供普遍基本收入，以减少贫困和不平等，而另一些人则担心这会削弱工作积极性并带来不可持续的财政负担。讨论这两种观点并给出你自己的看法。",
+        "english": "Some argue that governments should provide a universal basic income for all unemployed citizens to reduce poverty and inequality, while others fear it would disincentivize work and create an unsustainable financial burden. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "government"
+    },
+    {
+        "chinese": "有些人认为，政府在危机时期（如流行病或自然灾害）有权实施严格的限制措施以保护公众健康和安全，而另一些人则担心这些措施可能过度侵犯个人自由。讨论这两种观点并给出你自己的看法。",
+        "english": "Some believe governments are justified in imposing strict restrictions during crises (e.g., pandemics, natural disasters) to protect public health and safety, while others worry these measures can be an overreach and infringe on individual liberties. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "government"
+    },
+    {
+        "chinese": "一些人主张，为了确保公共服务的质量和可及性，这些服务应由政府直接提供和管理，而另一些人则认为，将公共服务私有化可以提高效率和创新。讨论这两种观点并给出你自己的看法。",
+        "english": "Some argue that public services should be directly provided and managed by the government to ensure quality and accessibility, while others believe privatizing public services can lead to greater efficiency and innovation. Discuss both these views and give your own opinion.","type": "discussion","topic": "government"
+    },
+    {
+        "chinese": "有些人认为，政府应该大力投资可再生能源技术以应对气候变化，即使这意味着短期内能源成本上升，而另一些人则认为，应优先考虑能源的可负担性和经济稳定。讨论这两种观点并给出你自己的看法。",
+        "english": "Some believe governments should invest heavily in renewable energy technologies to combat climate change, even if it means higher energy costs in the short term, while others argue that energy affordability and economic stability should be prioritized. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "government"
+    },
+    {
+        "chinese": "一些人主张，政府应限制企业对政治竞选的捐款，以减少其对政策制定的不当影响，而另一些人则认为，这种限制侵犯了言论自由和企业参与政治的权利。讨论这两种观点并给出你自己的看法。",
+        "english": "Some argue that governments should limit corporate donations to political campaigns to reduce undue influence on policymaking, while others believe such restrictions infringe on free speech and the right of businesses to participate in politics. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "government"
+    },
+    {
+        "chinese": "有些人认为，政府决策应更多地基于科学证据和专家建议，而另一些人则认为，公众舆论和民主授权应具有更大的权重。讨论这两种观点并给出你自己的看法。",
+        "english": "Some believe that government decisions should be based more on scientific evidence and expert advice, while others argue that public opinion and democratic mandates should carry greater weight. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "government"
+    },
+    {
+        "chinese": "有些人主张，为了提高治理效率和地方响应能力，应将更多权力从中央政府下放到地方政府，而另一些人则认为，中央集权对于维护国家统一和标准至关重要。讨论这两种观点并给出你自己的看法。",
+        "english": "Some argue that more power should be devolved from central to local governments to improve efficiency and local responsiveness, while others believe centralized authority is crucial for national unity and standards. Discuss both these views and give your own opinion.",
+        "type": "discussion",
+        "topic": "government"
+    }
+]

@@ -38,42 +38,26 @@
                         <span class="checkbox-text">政府</span>
                     </label>
                 </div>
-            </div>
-            
-            <div class="filter-row">
-                <h2>题目类型</h2>
-                <div class="question-type-filters">
-                    <label class="checkbox-container">
-                        <input type="checkbox" id="selectAllTypes">
-                        <span class="checkbox-text">全部</span>
-                    </label>
-                    <label class="checkbox-container">
-                        <input type="checkbox" class="type-checkbox" data-type="discussion">
-                        <span class="checkbox-text">讨论双方观点</span>
-                    </label>
-                    <label class="checkbox-container">
-                        <input type="checkbox" class="type-checkbox" data-type="agreement">
-                        <span class="checkbox-text">同意/不同意程度</span>
-                    </label>
-                </div>
+                <button id="randomButton" class="random-button">抽题</button>
             </div>
         </div>
-        
-        <button id="randomButton">随机选择话题</button>
         
         <div id="result" class="hidden">
             <div class="result-container">
                 <div class="topic-box">
-                    <h3>中文</h3>
-                    <p id="chineseText"></p>
+                    <div class="type-label">同意/不同意类型</div>
+                    <div class="topic-content">
+                        <p class="english-text" id="agreementEnglishText"></p>
+                        <p class="chinese-text" id="agreementChineseText"></p>
+                    </div>
                 </div>
                 <div class="topic-box">
-                    <h3>英文</h3>
-                    <p id="englishText"></p>
+                    <div class="type-label">讨论双方观点类型</div>
+                    <div class="topic-content">
+                        <p class="english-text" id="discussionEnglishText"></p>
+                        <p class="chinese-text" id="discussionChineseText"></p>
+                    </div>
                 </div>
-            </div>
-            <div class="question-type-tag">
-                <span id="questionTypeTag"></span>
             </div>
         </div>
     </div>
