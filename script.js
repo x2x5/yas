@@ -9,6 +9,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const discussionChineseText = document.getElementById('discussionChineseText');
     const discussionEnglishText = document.getElementById('discussionEnglishText');
     const darkModeToggle = document.getElementById('darkModeToggle');
+    const copyAgreementBtn = document.getElementById('copyAgreement');
+    const copyDiscussionBtn = document.getElementById('copyDiscussion');
     
     // 初始禁用随机按钮，直到数据处理完成
     randomButton.disabled = true;
@@ -218,6 +220,30 @@ document.addEventListener('DOMContentLoaded', () => {
         };
     }
     
+    // 添加复制功能
+    function copyText(text, button) {
+        // 创建临时文本区域
+        const textarea = document.createElement('textarea');
+        textarea.value = text;
+        document.body.appendChild(textarea);
+        
+        // 选择文本并复制
+        textarea.select();
+        document.execCommand('copy');
+        
+        // 移除临时文本区域
+        document.body.removeChild(textarea);
+        
+        // 更改按钮文字为对勾
+        const originalText = button.textContent;
+        button.textContent = '✓';
+        
+        // 一段时间后恢复按钮文字
+        setTimeout(() => {
+            button.textContent = originalText;
+        }, 1500);
+    }
+    
     // 初始化事件监听器
     function initEventListeners() {
         // 全选话题复选框事件
@@ -239,10 +265,27 @@ document.addEventListener('DOMContentLoaded', () => {
             discussionChineseText.textContent = selectedTopics.discussion.chinese;
             discussionEnglishText.textContent = selectedTopics.discussion.english;
             
+            // 更新当前题目记录
+            currentAgreementTopic = selectedTopics.agreement;
+            currentDiscussionTopic = selectedTopics.discussion;
+            
             resultDiv.classList.remove('hidden');
             
             // 自动滚动到结果区域
             resultDiv.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        });
+        
+        // 添加复制按钮事件监听
+        copyAgreementBtn.addEventListener('click', () => {
+            if (!currentAgreementTopic) return;
+            const textToCopy = `${currentAgreementTopic.english}\n\n${currentAgreementTopic.chinese}`;
+            copyText(textToCopy, copyAgreementBtn);
+        });
+        
+        copyDiscussionBtn.addEventListener('click', () => {
+            if (!currentDiscussionTopic) return;
+            const textToCopy = `${currentDiscussionTopic.english}\n\n${currentDiscussionTopic.chinese}`;
+            copyText(textToCopy, copyDiscussionBtn);
         });
     }
     

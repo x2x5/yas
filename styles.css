@@ -205,6 +205,7 @@ button:hover {
     box-shadow: 0 2px 10px var(--shadow-color);
     padding: 20px;
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
 }
 
 .type-label {
@@ -215,6 +216,10 @@ button:hover {
     margin-bottom: 20px;
     padding-bottom: 10px;
     border-bottom: 1px dashed var(--border-color);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .topic-content {
@@ -252,4 +257,50 @@ button:hover {
     font-size: 14px;
     font-weight: 500;
     transition: background-color 0.3s ease;
+}
+
+/* 复制按钮样式 */
+.copy-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    background-color: transparent;
+    color: var(--primary-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 8px;
+    padding: 0;
+    transition: all 0.2s ease;
+    box-shadow: none;
+}
+
+.copy-button:hover {
+    color: var(--primary-dark);
+    transform: scale(1.1);
+    background-color: transparent;
+}
+
+.copy-button:active {
+    transform: scale(0.95);
+}
+
+/* 复制成功提示 */
+.copy-tooltip {
+    display: none; /* 隐藏提示文本 */
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    70% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
 } 
