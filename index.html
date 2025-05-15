@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>雅思话题随机选择器</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>雅思话题随机选择器</h1>
+        
+        <div class="filter-section">
+            <h2>话题类别</h2>
+            <div class="topic-filters">
+                <label class="checkbox-container">
+                    <input type="checkbox" id="selectAll">
+                    <span class="checkbox-text">全部</span>
+                </label>
+                <label class="checkbox-container">
+                    <input type="checkbox" class="topic-checkbox" data-topic="education">
+                    <span class="checkbox-text">教育</span>
+                </label>
+                <label class="checkbox-container">
+                    <input type="checkbox" class="topic-checkbox" data-topic="society">
+                    <span class="checkbox-text">社会</span>
+                </label>
+                <label class="checkbox-container">
+                    <input type="checkbox" class="topic-checkbox" data-topic="technology">
+                    <span class="checkbox-text">科技</span>
+                </label>
+                <label class="checkbox-container">
+                    <input type="checkbox" class="topic-checkbox" data-topic="government">
+                    <span class="checkbox-text">政府</span>
+                </label>
+            </div>
+            
+            <h2>题目类型</h2>
+            <div class="question-type-filters">
+                <label class="checkbox-container">
+                    <input type="checkbox" id="selectAllTypes">
+                    <span class="checkbox-text">全部</span>
+                </label>
+                <label class="checkbox-container">
+                    <input type="checkbox" class="type-checkbox" data-type="discussion">
+                    <span class="checkbox-text">讨论双方观点</span>
+                </label>
+                <label class="checkbox-container">
+                    <input type="checkbox" class="type-checkbox" data-type="agreement">
+                    <span class="checkbox-text">同意/不同意程度</span>
+                </label>
+            </div>
+        </div>
+        
+        <button id="randomButton">随机选择话题</button>
+        
+        <div id="result" class="hidden">
+            <div class="result-container">
+                <div class="topic-box">
+                    <h3>中文</h3>
+                    <p id="chineseText"></p>
+                </div>
+                <div class="topic-box">
+                    <h3>英文</h3>
+                    <p id="englishText"></p>
+                </div>
+            </div>
+            <div class="question-type-tag">
+                <span id="questionTypeTag"></span>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html> 
