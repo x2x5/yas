@@ -6,157 +6,201 @@ document.addEventListener('DOMContentLoaded', () => {
     const typeCheckboxes = document.querySelectorAll('.type-checkbox');
     const randomButton = document.getElementById('randomButton');
     const resultDiv = document.getElementById('result');
-    const chineseText = document.getElementById('chineseText');
-    const englishText = document.getElementById('englishText');
-    const questionTypeTag = document.getElementById('questionTypeTag');
+    const chineseTextElement = document.getElementById('chineseText');
+    const englishTextElement = document.getElementById('englishText');
+    const questionTypeTagElement = document.getElementById('questionTypeTag');
+    const darkModeToggle = document.getElementById('darkModeToggle');
     
-    // 存储题目数据
-    const topicsData = {
-        education: null,
-        society: null,
-        technology: null,
-        government: null
-    };
-    
-    // 话题类型映射（用于显示中文标签）
-    const questionTypeLabels = {
-        'discussion': '讨论双方观点',
-        'agreement': '同意/不同意程度'
-    };
-    
-    // 加载所有JSON数据
-    const loadAllData = async () => {
-        try {
-            const topics = ['education', 'society', 'technology', 'government'];
-            const promises = topics.map(topic => 
-                fetch(`${topic}.json`)
-                    .then(response => {
-                        if (!response.ok) {
-                            throw new Error(`加载${topic}.json失败: ${response.status}`);
-                        }
-                        return response.json();
-                    })
-                    .then(data => {
-                        topicsData[topic] = data;
-                    })
-            );
-            
-            await Promise.all(promises);
-            console.log('所有数据加载完成');
-        } catch (error) {
-            console.error('加载题目数据失败:', error);
-            alert('加载题目数据失败，请检查JSON文件!');
+    // 夜间模式功能
+    function initDarkMode() {
+        // 检查本地存储中的夜间模式设置
+        const isDarkMode = localStorage.getItem('darkMode') === 'true';
+        
+        // 应用保存的设置
+        if (isDarkMode) {
+            document.body.classList.add('dark-mode');
+            darkModeToggle.textContent = '☀️';
         }
-    };
+        
+        // 添加切换事件
+        darkModeToggle.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
+            const isDark = document.body.classList.contains('dark-mode');
+            localStorage.setItem('darkMode', isDark);
+            darkModeToggle.textContent = isDark ? '☀️' : '🌙';
+        });
+    }
     
-    // 初始加载数据
-    loadAllData();
+    // 话题数据
+    let educationData = [];
+    let societyData = [];
+    let technologyData = [];
+    let governmentData = [];
     
-    // 话题类别全选/取消全选功能
-    selectAllCheckbox.addEventListener('change', () => {
+    // 加载话题数据
+    async function loadTopicData() {
+        try {
+            const [educationResponse, societyResponse, technologyResponse, governmentResponse] = await Promise.all([
+                fetch('education.json'),
+                fetch('society.json'),
+                fetch('technology.json'),
+                fetch('government.json')
+            ]);
+            
+            educationData = await educationResponse.json();
+            societyData = await societyResponse.json();
+            technologyData = await technologyResponse.json();
+            governmentData = await governmentResponse.json();
+            
+            // 初始化选中全部
+            selectAllCheckbox.checked = true;
+            selectAllTypesCheckbox.checked = true;
+            updateAllCheckboxes();
+            updateAllTypeCheckboxes();
+        } catch (error) {
+            console.error('加载话题数据出错:', error);
+        }
+    }
+    
+    // 更新所有话题类别复选框
+    function updateAllCheckboxes() {
         const isChecked = selectAllCheckbox.checked;
         topicCheckboxes.forEach(checkbox => {
             checkbox.checked = isChecked;
         });
-    });
+    }
     
-    // 题目类型全选/取消全选功能
-    selectAllTypesCheckbox.addEventListener('change', () => {
+    // 更新所有题目类型复选框
+    function updateAllTypeCheckboxes() {
         const isChecked = selectAllTypesCheckbox.checked;
         typeCheckboxes.forEach(checkbox => {
             checkbox.checked = isChecked;
         });
-    });
-    
-    // 当任何单个话题类别被点击时检查全选状态
-    topicCheckboxes.forEach(checkbox => {
-        checkbox.addEventListener('change', () => {
-            updateSelectAllCheckbox(topicCheckboxes, selectAllCheckbox);
-        });
-    });
-    
-    // 当任何单个题目类型被点击时检查全选状态
-    typeCheckboxes.forEach(checkbox => {
-        checkbox.addEventListener('change', () => {
-            updateSelectAllCheckbox(typeCheckboxes, selectAllTypesCheckbox);
-        });
-    });
-    
-    // 更新全选按钮状态
-    function updateSelectAllCheckbox(checkboxes, selectAllCheckbox) {
-        const allChecked = Array.from(checkboxes).every(checkbox => checkbox.checked);
-        const noneChecked = Array.from(checkboxes).every(checkbox => !checkbox.checked);
-        
-        selectAllCheckbox.checked = allChecked;
-        selectAllCheckbox.indeterminate = !allChecked && !noneChecked;
     }
     
-    // 随机选择话题
-    randomButton.addEventListener('click', () => {
-        // 获取选中的话题类别
-        const selectedTopics = [];
+    // 检查个别复选框状态
+    function checkIndividualCheckboxes() {
+        const allChecked = Array.from(topicCheckboxes).every(checkbox => checkbox.checked);
+        selectAllCheckbox.checked = allChecked;
+    }
+    
+    // 检查个别题目类型复选框状态
+    function checkIndividualTypeCheckboxes() {
+        const allChecked = Array.from(typeCheckboxes).every(checkbox => checkbox.checked);
+        selectAllTypesCheckbox.checked = allChecked;
+    }
+    
+    // 获取选中的话题类别数据
+    function getSelectedTopicData() {
+        let selectedData = [];
+        
         topicCheckboxes.forEach(checkbox => {
             if (checkbox.checked) {
-                selectedTopics.push(checkbox.dataset.topic);
+                const topic = checkbox.dataset.topic;
+                
+                switch (topic) {
+                    case 'education':
+                        selectedData = selectedData.concat(educationData);
+                        break;
+                    case 'society':
+                        selectedData = selectedData.concat(societyData);
+                        break;
+                    case 'technology':
+                        selectedData = selectedData.concat(technologyData);
+                        break;
+                    case 'government':
+                        selectedData = selectedData.concat(governmentData);
+                        break;
+                }
             }
         });
         
-        // 获取选中的题目类型
+        return selectedData;
+    }
+    
+    // 获取选中的题目类型
+    function getSelectedQuestionTypes() {
         const selectedTypes = [];
+        
         typeCheckboxes.forEach(checkbox => {
             if (checkbox.checked) {
                 selectedTypes.push(checkbox.dataset.type);
             }
         });
         
-        // 如果没有选择任何话题类别或题目类型，提示用户
-        if (selectedTopics.length === 0) {
-            alert('请至少选择一个话题类别!');
-            return;
+        return selectedTypes;
+    }
+    
+    // 获取随机话题
+    function getRandomTopic() {
+        const selectedTopicData = getSelectedTopicData();
+        const selectedTypes = getSelectedQuestionTypes();
+        
+        if (selectedTopicData.length === 0 || selectedTypes.length === 0) {
+            alert('请至少选择一个话题类别和一个题目类型');
+            return null;
         }
         
-        if (selectedTypes.length === 0) {
-            alert('请至少选择一个题目类型!');
-            return;
-        }
-        
-        // 从选中的话题类别和题目类型中收集题目
-        let allFilteredQuestions = [];
-        
-        selectedTopics.forEach(topic => {
-            if (topicsData[topic]) {
-                selectedTypes.forEach(type => {
-                    if (topicsData[topic][type] && topicsData[topic][type].length > 0) {
-                        // 为每个题目添加元数据，以便显示标签
-                        const questionsWithMeta = topicsData[topic][type].map(q => ({
-                            ...q,
-                            topicType: topic,
-                            questionType: type
-                        }));
-                        allFilteredQuestions = allFilteredQuestions.concat(questionsWithMeta);
-                    }
-                });
-            }
+        // 筛选符合选中题目类型的话题
+        const filteredTopics = selectedTopicData.filter(topic => {
+            return selectedTypes.includes(topic.type);
         });
         
-        // 如果没有可用题目，提示用户
-        if (allFilteredQuestions.length === 0) {
-            alert('所选类别和类型没有可用的题目!');
-            return;
+        if (filteredTopics.length === 0) {
+            alert('没有符合所选条件的话题');
+            return null;
         }
         
-        // 随机选择一个题目
-        const randomIndex = Math.floor(Math.random() * allFilteredQuestions.length);
-        const selectedQuestion = allFilteredQuestions[randomIndex];
+        // 随机选择一个话题
+        const randomIndex = Math.floor(Math.random() * filteredTopics.length);
+        return filteredTopics[randomIndex];
+    }
+    
+    // 获取题目类型中文名称
+    function getQuestionTypeText(type) {
+        switch (type) {
+            case 'discussion':
+                return '讨论双方观点';
+            case 'agreement':
+                return '同意/不同意程度';
+            default:
+                return '';
+        }
+    }
+    
+    // 初始化事件监听
+    function initEventListeners() {
+        // 全选话题类别
+        selectAllCheckbox.addEventListener('change', updateAllCheckboxes);
         
-        // 显示选中的题目
-        chineseText.textContent = selectedQuestion.chinese;
-        englishText.textContent = selectedQuestion.english;
+        // 监听个别话题类别
+        topicCheckboxes.forEach(checkbox => {
+            checkbox.addEventListener('change', checkIndividualCheckboxes);
+        });
         
-        // 显示题目类型标签
-        questionTypeTag.textContent = questionTypeLabels[selectedQuestion.questionType] || selectedQuestion.questionType;
+        // 全选题目类型
+        selectAllTypesCheckbox.addEventListener('change', updateAllTypeCheckboxes);
         
-        // 显示结果区域
-        resultDiv.classList.remove('hidden');
-    });
+        // 监听个别题目类型
+        typeCheckboxes.forEach(checkbox => {
+            checkbox.addEventListener('change', checkIndividualTypeCheckboxes);
+        });
+        
+        // 随机选择话题按钮
+        randomButton.addEventListener('click', () => {
+            const randomTopic = getRandomTopic();
+            
+            if (randomTopic) {
+                resultDiv.classList.remove('hidden');
+                chineseTextElement.textContent = randomTopic.chinese;
+                englishTextElement.textContent = randomTopic.english;
+                questionTypeTagElement.textContent = getQuestionTypeText(randomTopic.type);
+            }
+        });
+    }
+    
+    // 页面加载完成后初始化
+    initDarkMode();
+    loadTopicData();
+    initEventListeners();
 }); 

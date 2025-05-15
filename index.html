@@ -8,47 +8,54 @@
 </head>
 <body>
     <div class="container">
-        <h1>雅思话题随机选择器</h1>
+        <div class="header-container">
+            <h1>雅思话题随机选择器</h1>
+            <button id="darkModeToggle" class="dark-mode-btn">🌙</button>
+        </div>
         
         <div class="filter-section">
-            <h2>话题类别</h2>
-            <div class="topic-filters">
-                <label class="checkbox-container">
-                    <input type="checkbox" id="selectAll">
-                    <span class="checkbox-text">全部</span>
-                </label>
-                <label class="checkbox-container">
-                    <input type="checkbox" class="topic-checkbox" data-topic="education">
-                    <span class="checkbox-text">教育</span>
-                </label>
-                <label class="checkbox-container">
-                    <input type="checkbox" class="topic-checkbox" data-topic="society">
-                    <span class="checkbox-text">社会</span>
-                </label>
-                <label class="checkbox-container">
-                    <input type="checkbox" class="topic-checkbox" data-topic="technology">
-                    <span class="checkbox-text">科技</span>
-                </label>
-                <label class="checkbox-container">
-                    <input type="checkbox" class="topic-checkbox" data-topic="government">
-                    <span class="checkbox-text">政府</span>
-                </label>
+            <div class="filter-row">
+                <h2>话题类别</h2>
+                <div class="topic-filters">
+                    <label class="checkbox-container">
+                        <input type="checkbox" id="selectAll">
+                        <span class="checkbox-text">全部</span>
+                    </label>
+                    <label class="checkbox-container">
+                        <input type="checkbox" class="topic-checkbox" data-topic="education">
+                        <span class="checkbox-text">教育</span>
+                    </label>
+                    <label class="checkbox-container">
+                        <input type="checkbox" class="topic-checkbox" data-topic="society">
+                        <span class="checkbox-text">社会</span>
+                    </label>
+                    <label class="checkbox-container">
+                        <input type="checkbox" class="topic-checkbox" data-topic="technology">
+                        <span class="checkbox-text">科技</span>
+                    </label>
+                    <label class="checkbox-container">
+                        <input type="checkbox" class="topic-checkbox" data-topic="government">
+                        <span class="checkbox-text">政府</span>
+                    </label>
+                </div>
             </div>
             
-            <h2>题目类型</h2>
-            <div class="question-type-filters">
-                <label class="checkbox-container">
-                    <input type="checkbox" id="selectAllTypes">
-                    <span class="checkbox-text">全部</span>
-                </label>
-                <label class="checkbox-container">
-                    <input type="checkbox" class="type-checkbox" data-type="discussion">
-                    <span class="checkbox-text">讨论双方观点</span>
-                </label>
-                <label class="checkbox-container">
-                    <input type="checkbox" class="type-checkbox" data-type="agreement">
-                    <span class="checkbox-text">同意/不同意程度</span>
-                </label>
+            <div class="filter-row">
+                <h2>题目类型</h2>
+                <div class="question-type-filters">
+                    <label class="checkbox-container">
+                        <input type="checkbox" id="selectAllTypes">
+                        <span class="checkbox-text">全部</span>
+                    </label>
+                    <label class="checkbox-container">
+                        <input type="checkbox" class="type-checkbox" data-type="discussion">
+                        <span class="checkbox-text">讨论双方观点</span>
+                    </label>
+                    <label class="checkbox-container">
+                        <input type="checkbox" class="type-checkbox" data-type="agreement">
+                        <span class="checkbox-text">同意/不同意程度</span>
+                    </label>
+                </div>
             </div>
         </div>
         
