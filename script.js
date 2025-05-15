@@ -14,6 +14,10 @@ document.addEventListener('DOMContentLoaded', () => {
     randomButton.disabled = true;
     randomButton.textContent = '正在加载数据...';
     
+    // 记录当前显示的题目，避免重复选择
+    let currentAgreementTopic = null;
+    let currentDiscussionTopic = null;
+    
     // 夜间模式功能
     function initDarkMode() {
         // 检查本地存储中的夜间模式设置
@@ -165,6 +169,28 @@ document.addEventListener('DOMContentLoaded', () => {
         );
     }
     
+    // 从数组中随机选择一个元素，排除当前元素
+    function getRandomExcludingCurrent(array, currentItem) {
+        // 如果没有当前元素，或者数组只有一个元素，则简单随机选择
+        if (!currentItem || array.length <= 1) {
+            return array[Math.floor(Math.random() * array.length)];
+        }
+        
+        // 过滤掉当前项的数组
+        const filteredArray = array.filter(item => 
+            item.english !== currentItem.english || 
+            item.chinese !== currentItem.chinese
+        );
+        
+        // 如果过滤后没有元素了，说明只有当前这一个元素，则返回它
+        if (filteredArray.length === 0) {
+            return array[Math.floor(Math.random() * array.length)];
+        }
+        
+        // 从过滤后的数组中随机选择
+        return filteredArray[Math.floor(Math.random() * filteredArray.length)];
+    }
+    
     // 随机选择话题
     function getRandomTopics() {
         // 获取按类型过滤的话题列表
@@ -178,9 +204,13 @@ document.addEventListener('DOMContentLoaded', () => {
             return null;
         }
         
-        // 随机选择每种类型的一个题目
-        const randomAgreementTopic = agreementTopics[Math.floor(Math.random() * agreementTopics.length)];
-        const randomDiscussionTopic = discussionTopics[Math.floor(Math.random() * discussionTopics.length)];
+        // 随机选择每种类型的一个题目，排除当前显示的题目
+        const randomAgreementTopic = getRandomExcludingCurrent(agreementTopics, currentAgreementTopic);
+        const randomDiscussionTopic = getRandomExcludingCurrent(discussionTopics, currentDiscussionTopic);
+        
+        // 更新当前显示的题目记录
+        currentAgreementTopic = randomAgreementTopic;
+        currentDiscussionTopic = randomDiscussionTopic;
         
         return {
             agreement: randomAgreementTopic,
