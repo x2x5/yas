@@ -32,7 +32,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: "yas"  # 指定要部署的目录
+          path: "."  # 使用当前目录，因为checkout已经在正确的目录中
 
   # 部署工作
   deploy:
