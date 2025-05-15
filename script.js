@@ -47,10 +47,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 fetch('government.json')
             ]);
             
-            educationData = await educationResponse.json();
-            societyData = await societyResponse.json();
-            technologyData = await technologyResponse.json();
-            governmentData = await governmentResponse.json();
+            const educationJson = await educationResponse.json();
+            const societyJson = await societyResponse.json();
+            const technologyJson = await technologyResponse.json();
+            const governmentJson = await governmentResponse.json();
+            
+            // 处理JSON数据，将类型添加到每个题目中
+            educationData = processTopicData(educationJson, 'education');
+            societyData = processTopicData(societyJson, 'society');
+            technologyData = processTopicData(technologyJson, 'technology');
+            governmentData = processTopicData(governmentJson, 'government');
             
             // 初始化选中全部
             selectAllCheckbox.checked = true;
@@ -60,6 +66,33 @@ document.addEventListener('DOMContentLoaded', () => {
         } catch (error) {
             console.error('加载话题数据出错:', error);
         }
+    }
+    
+    // 处理话题数据，将类型信息添加到每个题目中
+    function processTopicData(jsonData, topicCategory) {
+        let processedData = [];
+        
+        // 处理讨论类型题目
+        if (jsonData.discussion) {
+            const discussionTopics = jsonData.discussion.map(item => ({
+                ...item,
+                type: 'discussion',
+                category: topicCategory
+            }));
+            processedData = processedData.concat(discussionTopics);
+        }
+        
+        // 处理同意/不同意类型题目
+        if (jsonData.agreement) {
+            const agreementTopics = jsonData.agreement.map(item => ({
+                ...item,
+                type: 'agreement',
+                category: topicCategory
+            }));
+            processedData = processedData.concat(agreementTopics);
+        }
+        
+        return processedData;
     }
     
     // 更新所有话题类别复选框
