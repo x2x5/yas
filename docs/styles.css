@@ -206,6 +206,9 @@ button:hover {
     padding: 20px;
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
     position: relative;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
 }
 
 .type-label {
@@ -227,6 +230,8 @@ button:hover {
     flex-direction: column;
     gap: 20px;
     text-align: center;
+    overflow-y: auto;
+    flex: 1;
 }
 
 .english-text {

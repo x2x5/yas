@@ -270,9 +270,6 @@ document.addEventListener('DOMContentLoaded', () => {
             currentDiscussionTopic = selectedTopics.discussion;
             
             resultDiv.classList.remove('hidden');
-            
-            // 自动滚动到结果区域
-            resultDiv.scrollIntoView({ behavior: 'smooth', block: 'start' });
         });
         
         // 添加复制按钮事件监听
